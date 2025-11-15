@@ -1,2 +1,3 @@
 # ActivationEnergy.github.io
-personal website
+
+Personal website, will put technique related posts here.
