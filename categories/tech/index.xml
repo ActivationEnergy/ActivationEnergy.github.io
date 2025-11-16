@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Activation Energy</title>
+    <link>https://ActivationEnergy.github.io/categories/tech/</link>
+    <description>Recent content in Tech on Activation Energy</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ActivationEnergy.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开篇</title>
+      <link>https://ActivationEnergy.github.io/posts/new_start/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ActivationEnergy.github.io/posts/new_start/</guid>
+      <description>&lt;p&gt;准备把一些技术相关的笔记和探索整理一下，放在这里。用的hugo-narrow主题，还有一些没有设置好的地方，后续逐步改进。&lt;/p&gt;&#xA;&lt;p&gt;这个blog的名字用了“Activation Energy - 活化能”，这是化学上比较重要的一个概念。足够量的氢气和氧气，二者发生反应的话，能放出巨大的能量，然后自身的能量状态会非常低，进入非常稳定的状态（水）。可是这个反应，即使二者量再大，混合在一起，一万年也不会生成一滴水。但是，只要给一点点活化能（比如一个很小很小的电火花），反应就能开始，并且反应自身产生的能量会推动反应自发继续进行下去，产生剧烈的反应（燃烧甚至爆炸）。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Activation Energy</title>
+    <link>https://ActivationEnergy.github.io/categories/</link>
+    <description>Recent content in Categories on Activation Energy</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ActivationEnergy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech</title>
+      <link>https://ActivationEnergy.github.io/categories/tech/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ActivationEnergy.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

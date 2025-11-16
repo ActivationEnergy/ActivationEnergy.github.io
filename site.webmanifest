@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "categories": [
+    "blog",
+    "technology",
+    "education"
+  ],
+  "description": "化学反应需要活化能来启动，化学之外的反应也是",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "any",
+      "src": "/images/favicon.jpg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "zh-CN",
+  "name": "Activation Energy",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "Activation Energy",
+  "start_url": "/",
+  "theme_color": "#09090b"
+}
