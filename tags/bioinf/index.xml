@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Bioinf on Activation Energy</title>
+		<link>https://ActivationEnergy.github.io/tags/bioinf/</link>
+		<description>Recent content in Bioinf on Activation Energy</description>
+		<generator>Hugo</generator>
+		<language>zh-Hans</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 02 Oct 2026 01:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ActivationEnergy.github.io/tags/bioinf/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>人类参考基因组怎么选</title>
+				<link>https://ActivationEnergy.github.io/posts/%E4%BA%BA%E7%B1%BB%E5%8F%82%E8%80%83%E5%9F%BA%E5%9B%A0%E7%BB%84%E6%80%8E%E4%B9%88%E9%80%89/</link>
+				<pubDate>Fri, 02 Oct 2026 01:00:00 +0000</pubDate>
+				<guid>https://ActivationEnergy.github.io/posts/%E4%BA%BA%E7%B1%BB%E5%8F%82%E8%80%83%E5%9F%BA%E5%9B%A0%E7%BB%84%E6%80%8E%E4%B9%88%E9%80%89/</guid>
+				<description>&lt;div&#xA;    class=&#34;alert alert-note my-6 overflow-hidden rounded-lg transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md&#34;&#xA;    style=&#34;background-color: color-mix(in srgb, var(--color-note) 10%, transparent);&#xA;              border-left-color: var(--color-note);&#xA;              --hover-bg: color-mix(in srgb, var(--color-note) 15%, transparent);&#34;&#xA;    onmouseover=&#34;this.style.backgroundColor = this.style.getPropertyValue(&#39;--hover-bg&#39;)&#34;&#xA;    onmouseout=&#34;this.style.backgroundColor = &#39;color-mix(in srgb, var(--color-note) 10%, transparent)&#39;&#34;&#xA;    role=&#34;alert&#34;&#xA;    aria-labelledby=&#34;alert-0-title&#34;&#xA;  &gt;&#xA;    &#xA;    &lt;div&#xA;      class=&#34; flex items-center justify-between px-6 py-6&#34;&#xA;      &#xA;    &gt;&#xA;      &lt;div class=&#34;flex items-center gap-3&#34;&gt;&#xA;        &#xA;        &lt;h4 id=&#34;alert-0-title&#34; class=&#34;text-foreground/90 m-0 font-semibold&#34;&gt;&#xA;          TLDR&#xA;        &lt;/h4&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;      &#xA;      &#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;    &lt;div&#xA;      id=&#34;alert-0-content&#34;&#xA;      class=&#34;alert-content  px-6 pb-6&#34;&#xA;    &gt;&#xA;      &lt;div class=&#34;prose prose-sm text-foreground/90 max-w-none&#34;&gt;&#xA;        &lt;ul&gt;&#xA;&lt;li&gt;要提取序列，用hg19.p13和hg38.p14&lt;/li&gt;&#xA;&lt;li&gt;要做alignment，用hs37d5和NCBI &lt;code&gt;no_alt_plus_hs38d1_analysis_set&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&lt;script&gt;&#xA;  function toggleAlert(alertId) {&#xA;    const content = document.getElementById(alertId + &#34;-content&#34;);&#xA;    const chevron = document.getElementById(alertId + &#34;-chevron&#34;);&#xA;    const header = content.previousElementSibling;&#xA;&#xA;    if (content.classList.contains(&#34;hidden&#34;)) {&#xA;      content.classList.remove(&#34;hidden&#34;);&#xA;      chevron.style.transform = &#34;rotate(0deg)&#34;;&#xA;      header.setAttribute(&#34;aria-expanded&#34;, &#34;true&#34;);&#xA;    } else {&#xA;      content.classList.add(&#34;hidden&#34;);&#xA;      chevron.style.transform = &#34;rotate(-90deg)&#34;;&#xA;      header.setAttribute(&#34;aria-expanded&#34;, &#34;false&#34;);&#xA;    }&#xA;  }&#xA;&#xA;  &#xA;  document.addEventListener(&#34;DOMContentLoaded&#34;, function () {&#xA;    const collapsedAlerts = document.querySelectorAll(&#34;.alert-content.hidden&#34;);&#xA;    collapsedAlerts.forEach(function (content) {&#xA;      const alertId = content.id.replace(&#34;-content&#34;, &#34;&#34;);&#xA;      const chevron = document.getElementById(alertId + &#34;-chevron&#34;);&#xA;      if (chevron) {&#xA;        chevron.style.transform = &#34;rotate(-90deg)&#34;;&#xA;      }&#xA;    });&#xA;  });&#xA;&lt;/script&gt;&#xA;&lt;p&gt;参考基因组，对于做测序相关的数据分析工作来讲，是非常基本、非常常用的一个数据，甚至可能是天天用的。但即便如此，人类参考基因组怎么选也并不显而易见，有很多复杂的细节需要考虑，尤其是提取序列与比对 reads 还是两个不同的问题，所以今天就把相关的内容总结一下。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

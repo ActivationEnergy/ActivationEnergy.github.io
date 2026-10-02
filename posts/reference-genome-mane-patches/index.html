@@ -8,13 +8,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<title>开篇 |
+<title>MANE v1.5 的 64 条 patch 转录本完整表 |
     Activation Energy</title>
 
 <meta
   name="description"
-  content="准备把一些技术相关的笔记和探索整理一下，放在这里。用的hugo-narrow主题，还有一些没有设置好的地方，后续逐步改进。
-这个blog的名字用了“Activation Energy - 活化能”，这是化学上比较重要的一个概念。足够量的氢气和氧气，二者发生反应的话，能放出巨大的能量，然后自身的能量状..."
+  content="NCBI 的 MANE v1.5 官方 summary 中，有 64 个基因的 MANE Select 注释在 genomic patch 上，下表完整列出这 64 条 MANE Select patch 转录本。每行的官方 RefSeq patch 和 mRNA 位置来自 NCBI MANE..."
 />
 <meta
   name="keywords"
@@ -30,39 +29,35 @@
   name="robots"
   content="index, follow"
 />
-<link rel="canonical" href="https://ActivationEnergy.github.io/posts/new_start/" />
+<link rel="canonical" href="https://ActivationEnergy.github.io/posts/reference-genome-mane-patches/" />
 
 
   <link rel="icon" type="image/svg+xml" href="/images/favicon.jpg" />
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="https://ActivationEnergy.github.io/posts/new_start/">
+<meta property="og:url" content="https://ActivationEnergy.github.io/posts/reference-genome-mane-patches/">
 	<meta property="og:site_name" content="Activation Energy">
-	<meta property="og:title" content="开篇">
-	<meta property="og:description" content="准备把一些技术相关的笔记和探索整理一下，放在这里。用的hugo-narrow主题，还有一些没有设置好的地方，后续逐步改进。
-这个blog的名字用了“Activation Energy - 活化能”，这是化学上比较重要的一个概念。足够量的氢气和氧气，二者发生反应的话，能放出巨大的能量，然后自身的能量状态会非常低，进入非常稳定的状态（水）。可是这个反应，即使二者量再大，混合在一起，一万年也不会生成一滴水。但是，只要给一点点活化能（比如一个很小很小的电火花），反应就能开始，并且反应自身产生的能量会推动反应自发继续进行下去，产生剧烈的反应（燃烧甚至爆炸）。">
+	<meta property="og:title" content="MANE v1.5 的 64 条 patch 转录本完整表">
+	<meta property="og:description" content="NCBI 的 MANE v1.5 官方 summary 中，有 64 个基因的 MANE Select 注释在 genomic patch 上，下表完整列出这 64 条 MANE Select patch 转录本。每行的官方 RefSeq patch 和 mRNA 位置来自 NCBI MANE v1.5 summary ；primary／FIX／ALT 三栏列出该 NM 在本地 UCSC 转录本数据库中可见的所有 scaffold 与其 exon 覆盖的基因组跨度，总共 162 个定位。坐标统一写成 1-based、两端包含，括号内是链方向；由 UCSC 0-based 半开 exon 记录换算。粗体标出与 MANE 官方所选 patch 对应的 UCSC 定位，— 表示该类别没有记录。所有 64 个官方所选 patch 的区间及方向都与 MANE RefSeq GFF3 的 mRNA 记录 相符，NCBI／UCSC 名称由 GRCh38.p14 assembly report 核对。">
 	<meta property="og:locale" content="zh_Hans">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
-		<meta property="article:published_time" content="2025-11-16T00:00:00+00:00">
-		<meta property="article:modified_time" content="2025-11-16T00:00:00+00:00">
+		<meta property="article:published_time" content="2026-10-02T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-10-02T00:00:00+00:00">
 		<meta property="og:image" content="https://ActivationEnergy.github.io/images/bioinformatician.webp">
 
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://ActivationEnergy.github.io/images/bioinformatician.webp">
-	<meta name="twitter:title" content="开篇">
-	<meta name="twitter:description" content="准备把一些技术相关的笔记和探索整理一下，放在这里。用的hugo-narrow主题，还有一些没有设置好的地方，后续逐步改进。
-这个blog的名字用了“Activation Energy - 活化能”，这是化学上比较重要的一个概念。足够量的氢气和氧气，二者发生反应的话，能放出巨大的能量，然后自身的能量状态会非常低，进入非常稳定的状态（水）。可是这个反应，即使二者量再大，混合在一起，一万年也不会生成一滴水。但是，只要给一点点活化能（比如一个很小很小的电火花），反应就能开始，并且反应自身产生的能量会推动反应自发继续进行下去，产生剧烈的反应（燃烧甚至爆炸）。">
+	<meta name="twitter:title" content="MANE v1.5 的 64 条 patch 转录本完整表">
+	<meta name="twitter:description" content="NCBI 的 MANE v1.5 官方 summary 中，有 64 个基因的 MANE Select 注释在 genomic patch 上，下表完整列出这 64 条 MANE Select patch 转录本。每行的官方 RefSeq patch 和 mRNA 位置来自 NCBI MANE v1.5 summary ；primary／FIX／ALT 三栏列出该 NM 在本地 UCSC 转录本数据库中可见的所有 scaffold 与其 exon 覆盖的基因组跨度，总共 162 个定位。坐标统一写成 1-based、两端包含，括号内是链方向；由 UCSC 0-based 半开 exon 记录换算。粗体标出与 MANE 官方所选 patch 对应的 UCSC 定位，— 表示该类别没有记录。所有 64 个官方所选 patch 的区间及方向都与 MANE RefSeq GFF3 的 mRNA 记录 相符，NCBI／UCSC 名称由 GRCh38.p14 assembly report 核对。">
 
 
-	<meta itemprop="name" content="开篇">
-	<meta itemprop="description" content="准备把一些技术相关的笔记和探索整理一下，放在这里。用的hugo-narrow主题，还有一些没有设置好的地方，后续逐步改进。
-这个blog的名字用了“Activation Energy - 活化能”，这是化学上比较重要的一个概念。足够量的氢气和氧气，二者发生反应的话，能放出巨大的能量，然后自身的能量状态会非常低，进入非常稳定的状态（水）。可是这个反应，即使二者量再大，混合在一起，一万年也不会生成一滴水。但是，只要给一点点活化能（比如一个很小很小的电火花），反应就能开始，并且反应自身产生的能量会推动反应自发继续进行下去，产生剧烈的反应（燃烧甚至爆炸）。">
-	<meta itemprop="datePublished" content="2025-11-16T00:00:00+00:00">
-	<meta itemprop="dateModified" content="2025-11-16T00:00:00+00:00">
-	<meta itemprop="wordCount" content="279">
+	<meta itemprop="name" content="MANE v1.5 的 64 条 patch 转录本完整表">
+	<meta itemprop="description" content="NCBI 的 MANE v1.5 官方 summary 中，有 64 个基因的 MANE Select 注释在 genomic patch 上，下表完整列出这 64 条 MANE Select patch 转录本。每行的官方 RefSeq patch 和 mRNA 位置来自 NCBI MANE v1.5 summary ；primary／FIX／ALT 三栏列出该 NM 在本地 UCSC 转录本数据库中可见的所有 scaffold 与其 exon 覆盖的基因组跨度，总共 162 个定位。坐标统一写成 1-based、两端包含，括号内是链方向；由 UCSC 0-based 半开 exon 记录换算。粗体标出与 MANE 官方所选 patch 对应的 UCSC 定位，— 表示该类别没有记录。所有 64 个官方所选 patch 的区间及方向都与 MANE RefSeq GFF3 的 mRNA 记录 相符，NCBI／UCSC 名称由 GRCh38.p14 assembly report 核对。">
+	<meta itemprop="datePublished" content="2026-10-02T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-10-02T00:00:00+00:00">
+	<meta itemprop="wordCount" content="1084">
 	<meta itemprop="image" content="https://ActivationEnergy.github.io/images/bioinformatician.webp">
-	<meta itemprop="keywords" content="Tech">
 
 
 
@@ -709,7 +704,7 @@
           <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
 </svg>
-          <span class="max-w-32 truncate md:max-w-[16rem] lg:max-w-none">开篇</span>
+          <span class="max-w-32 truncate md:max-w-[16rem] lg:max-w-none">MANE v1.5 的 64 条 patch 转录本完整表</span>
         </span>
       </li>
     </ol>
@@ -731,7 +726,7 @@
   
   
     <h1 class="text-foreground mb-6 text-3xl leading-tight font-bold md:text-4xl">
-      开篇
+      MANE v1.5 的 64 条 patch 转录本完整表
     </h1>
   
 
@@ -754,8 +749,8 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 </svg>
 
-              <time datetime="2025-11-16">
-                2025年11月16日
+              <time datetime="2026-10-02">
+                2026年10月2日
               </time>
             </div>
             
@@ -767,7 +762,7 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>
 
-              <span>1 分钟</span>
+              <span>3 分钟</span>
             </div>
             
 
@@ -778,32 +773,13 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
 </svg>
 
-              <span>279 字</span>
+              <span>1084 字</span>
             </div>
             
           </div>
 
           
           <div class="text-muted-foreground space-y-3 pt-4 border-t border-border">
-            <div class="flex items-center gap-2">
-              <div class="shrink-0">
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-</svg>
-
-              </div>
-              <div class="flex-1 min-w-0">
-                <div class="flex flex-wrap items-center gap-1.5">
-                  <span class="text-muted-foreground text-sm font-medium">
-                    Categories:
-                  </span>
-                  <a href="/categories/tech/"
-                    class="inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium transition-all duration-200 bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground">
-                    Tech
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
     </div>
   </div>
@@ -813,9 +789,485 @@
 
   
   <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
-    <p>准备把一些技术相关的笔记和探索整理一下，放在这里。用的hugo-narrow主题，还有一些没有设置好的地方，后续逐步改进。</p>
-<p>这个blog的名字用了“Activation Energy - 活化能”，这是化学上比较重要的一个概念。足够量的氢气和氧气，二者发生反应的话，能放出巨大的能量，然后自身的能量状态会非常低，进入非常稳定的状态（水）。可是这个反应，即使二者量再大，混合在一起，一万年也不会生成一滴水。但是，只要给一点点活化能（比如一个很小很小的电火花），反应就能开始，并且反应自身产生的能量会推动反应自发继续进行下去，产生剧烈的反应（燃烧甚至爆炸）。</p>
-<p>有很多事情，都是类似。</p>
+    <p>NCBI 的 MANE v1.5 官方 summary 中，有 <strong>64 个基因的 MANE Select</strong> 注释在 genomic patch 上，下表完整列出这 <strong>64 条 MANE Select patch 转录本</strong>。每行的官方 RefSeq patch 和 mRNA 位置来自 <a
+    href="https://ftp.ncbi.nlm.nih.gov/refseq/MANE/MANE_human/release_1.5/MANE.GRCh38.v1.5.summary.txt.gz"target="_blank"
+    class="inline-flex items-center gap-1"
+  >NCBI MANE v1.5 summary<svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a>；primary／FIX／ALT 三栏列出该 NM 在本地 UCSC 转录本数据库中可见的<strong>所有</strong> scaffold 与其 exon 覆盖的基因组跨度，总共 162 个定位。坐标统一写成 <strong>1-based、两端包含</strong>，括号内是链方向；由 UCSC 0-based 半开 exon 记录换算。<strong>粗体</strong>标出与 MANE 官方所选 patch 对应的 UCSC 定位，<code>—</code> 表示该类别没有记录。所有 64 个官方所选 patch 的区间及方向都与 <a
+    href="https://ftp.ncbi.nlm.nih.gov/refseq/MANE/MANE_human/release_1.5/MANE.GRCh38.v1.5.refseq_genomic.gff.gz"target="_blank"
+    class="inline-flex items-center gap-1"
+  >MANE RefSeq GFF3 的 <code>mRNA</code> 记录<svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a>相符，NCBI／UCSC 名称由 <a
+    href="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.29_GRCh38.p14/GCA_000001405.29_GRCh38.p14_assembly_report.txt"target="_blank"
+    class="inline-flex items-center gap-1"
+  >GRCh38.p14 assembly report<svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a>核对。</p>
+<p><strong>读表注意：<strong>这是一个 NM 的全部</strong>可见比对定位</strong>，不表示每个位置都有完整的 exon／CDS，也不表示设计或常规 reads 比对时应把它们全部采用。表中的区间是基因组跨度，包含内含子；要提取单个 exon／CDS，应以对应注释为准。<a
+    href="https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/file-formats/annotation-files/about-ncbi-gff3/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >NCBI GFF3 文档：“Column Specifications”节<svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a></p>
+<table>
+	<thead>
+			<tr>
+					<th>基因／MANE NM</th>
+					<th>官方 RefSeq patch：mRNA 区间与链</th>
+					<th>primary 定位</th>
+					<th>FIX 定位</th>
+					<th>ALT 定位</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>ABO</strong><br><code>NM_020469.4</code></td>
+					<td><code>NW_009646201.1:76358-101295</code> (-)</td>
+					<td>—</td>
+					<td><strong><code>chr9_KN196479v1_fix:76358-101295</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>APOBEC3A_B</strong><br><code>NM_001193289.2</code></td>
+					<td><code>NW_003315972.2:73317-78547</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr22_GL383583v2_alt:73317-78547</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>ASPN</strong><br><code>NM_017680.6</code></td>
+					<td><code>NW_025791788.1:290934-317233</code> (-)</td>
+					<td><code>chr9:92456205-92482506</code> (-)</td>
+					<td><strong><code>chr9_MU273365v1_fix:290934-317233</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>C4B_2</strong><br><code>NM_001242823.2</code></td>
+					<td><code>NT_167249.2:3283246-3303870</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr6_GL000256v2_alt:3283246-3303870</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>CASP12</strong><br><code>NM_001191016.3</code></td>
+					<td><code>NW_025791791.1:182419-197593</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr11_MU273368v1_alt:182419-197593</code> (-)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>CASP8AP2</strong><br><code>NM_001137667.2</code></td>
+					<td><code>NW_017363815.1:25225-72124</code> (+)</td>
+					<td><code>chr6:89829880-89874436</code> (+)</td>
+					<td><strong><code>chr6_KV766194v1_fix:25225-72124</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>CCL3L1</strong><br><code>NM_021006.6</code></td>
+					<td><code>NT_187661.1:250577-252466</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr17_KI270909v1_alt:250577-252466</code> (-)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>CCL4L1</strong><br><code>NM_207007.4</code></td>
+					<td><code>NT_187661.1:266611-268581</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr17_KI270909v1_alt:266611-268581</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>CD300H</strong><br><code>NM_001324073.3</code></td>
+					<td><code>NW_025791806.1:136619-143957</code> (-)</td>
+					<td><code>chr17:74560171-74567509</code> (-)</td>
+					<td><strong><code>chr17_MU273383v1_fix:136619-143957</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>FCGBP</strong><br><code>NM_003890.3</code></td>
+					<td><code>NW_009646206.1:123199-209777</code> (-)</td>
+					<td><code>chr19:39863323-39934634</code> (-)</td>
+					<td><strong><code>chr19_KN196484v1_fix:123199-209777</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>FOXO6</strong><br><code>NM_001291281.3</code></td>
+					<td><code>NW_009646194.1:111107-133486</code> (+)</td>
+					<td><code>chr1:41361434-41383590</code> (+)</td>
+					<td><strong><code>chr1_KN196472v1_fix:111107-133486</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>FUT3</strong><br><code>NM_001097639.3</code></td>
+					<td><code>NW_025791810.1:16467-25033</code> (-)</td>
+					<td><code>chr19:5842888-5851449</code> (-)</td>
+					<td>—</td>
+					<td><strong><code>chr19_MU273387v1_alt:16467-25033</code> (-)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>GBA3</strong><br><code>NM_020973.5</code></td>
+					<td><code>NW_025791774.1:14730-141362</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr4_MU273351v1_fix:14730-141362</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>GPATCH4</strong><br><code>NM_001396855.1</code></td>
+					<td><code>NW_025791758.1:152858-160038</code> (-)</td>
+					<td>—</td>
+					<td><strong><code>chr1_MU273335v1_fix:152858-160038</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>GSTT1</strong><br><code>NM_000853.4</code></td>
+					<td><code>NT_187633.1:270314-278446</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr22_KI270879v1_alt:270314-278446</code> (-)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>GSTT2</strong><br><code>NM_000854.5</code></td>
+					<td><code>NT_187633.1:216500-220281</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr22_KI270879v1_alt:216500-220281</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>GTF2H2C_2</strong><br><code>NM_001354437.3</code></td>
+					<td><code>NW_003315917.2:965642-997922</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr5_GL339449v2_alt:965642-997922</code> (-)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>HLA-DRB3</strong><br><code>NM_022555.4</code></td>
+					<td><code>NT_113891.3:3934018-3947156</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr6_GL000250v2_alt:3824508-3837642</code> (-)<br><strong><code>chr6_GL000251v2_alt:3934018-3947156</code> (-)</strong><br><code>chr6_GL000255v2_alt:3715352-3728489</code> (-)</td>
+			</tr>
+			<tr>
+					<td><strong>HLA-DRB4</strong><br><code>NM_021983.5</code></td>
+					<td><code>NT_167247.2:3876744-3891699</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr6_GL000253v2_alt:3840435-3855387</code> (-)<br><strong><code>chr6_GL000254v2_alt:3876744-3891699</code> (-)</strong><br><code>chr6_GL000256v2_alt:3851141-3866096</code> (-)</td>
+			</tr>
+			<tr>
+					<td><strong>IFNL4</strong><br><code>NM_001276254.2</code></td>
+					<td><code>NW_025791808.1:26697-29238</code> (-)</td>
+					<td>—</td>
+					<td><strong><code>chr19_MU273385v1_fix:26697-29238</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DL2</strong><br><code>NM_014219.3</code></td>
+					<td><code>NT_187670.1:113706-128262</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr19_GL000209v2_alt:106543-121108</code> (-)<br><code>chr19_GL949747v2_alt:369241-402180</code> (+)<br><code>chr19_KI270890v1_alt:113614-128174</code> (-)<br><strong><code>chr19_KI270916v1_alt:113706-128262</code> (-)</strong><br><code>chr19_KV575256v1_alt:58738-116311</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DL5A</strong><br><code>NM_020535.3</code></td>
+					<td><code>NT_187644.1:53906-63370</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr19_GL000209v2_alt:46835-56299</code> (-)<br><code>chr19_GL949747v2_alt:450950-460414</code> (+)<br><code>chr19_KI270882v1_alt:60196-69656</code> (-)<br><code>chr19_KI270887v1_alt:65871-75331</code> (-)<br><strong><code>chr19_KI270890v1_alt:53906-63370</code> (-)</strong><br><code>chr19_KI270916v1_alt:53983-63443</code> (-)<br><code>chr19_KI270921v1_alt:176095-185555</code> (+)<br><code>chr19_KV575250v1_alt:134711-144175</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DL5B</strong><br><code>NM_001018081.2</code></td>
+					<td><code>NT_187684.1:134455-144052</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr19_KI270882v1_alt:166421-192482</code> (-)<br><code>chr19_KI270886v1_alt:121882-147909</code> (-)<br><code>chr19_KI270914v1_alt:122798-148861</code> (-)<br><code>chr19_KI270921v1_alt:53265-79329</code> (+)<br><strong><code>chr19_KI270930v1_alt:134455-144052</code> (-)</strong><br><code>chr19_KI270932v1_alt:133293-159358</code> (-)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DS1</strong><br><code>NM_014512.1</code></td>
+					<td><code>NT_187670.1:21201-35215</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr19_GL000209v2_alt:13877-27891</code> (-)<br><code>chr19_GL949747v2_alt:479358-493372</code> (+)<br><code>chr19_KI270882v1_alt:27414-41428</code> (-)<br><code>chr19_KI270887v1_alt:33089-47103</code> (-)<br><code>chr19_KI270890v1_alt:20948-34962</code> (-)<br><strong><code>chr19_KI270916v1_alt:21201-35215</code> (-)</strong><br><code>chr19_KI270921v1_alt:204323-218337</code> (+)<br><code>chr19_KV575249v1_alt:268510-282524</code> (+)<br><code>chr19_KV575250v1_alt:163160-177174</code> (+)<br><code>chr19_KV575256v1_alt:193306-207320</code> (+)<br><code>chr19_KV575258v1_alt:63900-77914</code> (-)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DS2</strong><br><code>NM_012312.5</code></td>
+					<td><code>NW_003571061.2:464529-478864</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr19_GL000209v2_alt:122955-137288</code> (-)<br><strong><code>chr19_GL949753v2_alt:464529-478864</code> (+)</strong><br><code>chr19_KI270882v1_alt:194387-208721</code> (-)<br><code>chr19_KI270884v1_alt:102583-116917</code> (-)<br><code>chr19_KI270886v1_alt:149814-164148</code> (-)<br><code>chr19_KI270888v1_alt:101103-115438</code> (-)<br><code>chr19_KI270890v1_alt:130021-144356</code> (-)<br><code>chr19_KI270914v1_alt:150766-165100</code> (-)<br><code>chr19_KI270916v1_alt:130109-144444</code> (-)<br><code>chr19_KI270921v1_alt:37026-51360</code> (+)<br><code>chr19_KI270923v1_alt:29469-43805</code> (+)<br><code>chr19_KI270932v1_alt:161263-175597</code> (-)<br><code>chr19_KV575258v1_alt:124734-139068</code> (-)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DS3</strong><br><code>NM_012313.2</code></td>
+					<td><code>NT_187636.1:150177-164580</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr19_KI270882v1_alt:150177-164580</code> (-)</strong><br><code>chr19_KI270886v1_alt:105638-120041</code> (-)<br><code>chr19_KI270887v1_alt:49535-63939</code> (-)<br><code>chr19_KI270916v1_alt:37647-52051</code> (-)<br><code>chr19_KI270921v1_alt:81170-95573</code> (+)<br><code>chr19_KV575249v1_alt:146083-160488</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DS4</strong><br><code>NM_012314.6</code></td>
+					<td><code>NT_187669.1:20467-36357</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr19_GL949752v1_alt:737076-752966</code> (+)<br><code>chr19_KI270885v1_alt:20776-36666</code> (-)<br><code>chr19_KI270888v1_alt:20341-34795</code> (-)<br><code>chr19_KI270889v1_alt:20467-36357</code> (-)<br><code>chr19_KI270891v1_alt:20481-36372</code> (-)<br><strong><code>chr19_KI270915v1_alt:20467-36357</code> (-)</strong><br><code>chr19_KI270917v1_alt:111653-127543</code> (+)<br><code>chr19_KI270920v1_alt:119582-134593</code> (+)<br><code>chr19_KI270929v1_alt:106919-122809</code> (+)<br><code>chr19_KI270931v1_alt:20840-35851</code> (-)<br><code>chr19_KV575251v1_alt:134336-150226</code> (+)<br><code>chr19_KV575252v1_alt:134160-149171</code> (+)<br><code>chr19_KV575259v1_alt:134312-150202</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR2DS5</strong><br><code>NM_014513.3</code></td>
+					<td><code>NT_187644.1:36929-51949</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><code>chr19_GL000209v2_alt:29858-44878</code> (-)<br><code>chr19_GL949747v2_alt:462371-477391</code> (+)<br><strong><code>chr19_KI270890v1_alt:36929-51949</code> (-)</strong><br><code>chr19_KI270914v1_alt:105956-120932</code> (-)<br><code>chr19_KI270930v1_alt:117552-132589</code> (-)<br><code>chr19_KI270932v1_alt:116409-131427</code> (-)<br><code>chr19_KV575249v1_alt:251523-266543</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>KIR3DS1</strong><br><code>NM_001083539.3</code></td>
+					<td><code>NT_113949.2:58219-72915</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr19_GL000209v2_alt:58219-72915</code> (-)</strong><br><code>chr19_GL949747v2_alt:434334-449030</code> (+)<br><code>chr19_KI270882v1_alt:71576-86272</code> (-)<br><code>chr19_KI270887v1_alt:77251-91948</code> (-)<br><code>chr19_KI270890v1_alt:65290-79986</code> (-)<br><code>chr19_KI270916v1_alt:65363-80059</code> (-)<br><code>chr19_KI270921v1_alt:159479-174175</code> (+)<br><code>chr19_KV575249v1_alt:223486-238182</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>LILRA3</strong><br><code>NM_006865.5</code></td>
+					<td><code>NW_003571054.1:270739-275150</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr19_GL949746v1_alt:270739-275150</code> (-)</strong><br><code>chr19_GL949747v2_alt:270620-275031</code> (-)<br><code>chr19_GL949753v2_alt:270995-275406</code> (-)<br><code>chr19_KI270938v1_alt:270968-275379</code> (-)</td>
+			</tr>
+			<tr>
+					<td><strong>LOC102724250</strong><br><code>NM_001405530.2</code></td>
+					<td><code>NW_025791756.1:585134-647257</code> (-)</td>
+					<td>—</td>
+					<td><strong><code>chr1_MU273333v1_fix:585134-647257</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>LOC102725023</strong><br><code>NM_001360171.2</code></td>
+					<td><code>NT_187636.1:43860-58264</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr19_KI270882v1_alt:43860-58264</code> (-)</strong><br><code>chr19_KI270921v1_alt:187487-201891</code> (+)<br><code>chr19_KV575256v1_alt:176470-190874</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>LOC110384692</strong><br><code>NM_001352000.1</code></td>
+					<td><code>NT_167247.2:3356831-3377455</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr6_GL000254v2_alt:3356831-3377455</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>MROH5</strong><br><code>NM_207414.3</code></td>
+					<td><code>NW_025791786.1:100379-173783</code> (-)</td>
+					<td>—</td>
+					<td><strong><code>chr8_MU273363v1_fix:100379-173783</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>MROH8</strong><br><code>NM_152503.8</code></td>
+					<td><code>NW_025791812.1:10640-89050</code> (-)</td>
+					<td><code>chr20:37101167-37179548</code> (-)</td>
+					<td><strong><code>chr20_MU273389v1_fix:10640-89050</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>MUC16</strong><br><code>NM_001401501.2</code></td>
+					<td><code>NW_025791807.1:83787-260177</code> (-)</td>
+					<td><code>chr19:8848844-9010409</code> (-)</td>
+					<td><strong><code>chr19_MU273384v1_fix:83787-260177</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>MUC2</strong><br><code>NM_002457.5</code></td>
+					<td><code>NW_015148966.2:71614-108092</code> (+)</td>
+					<td><code>chr11:1074874-1110508</code> (+)</td>
+					<td><strong><code>chr11_KQ759759v2_fix:71614-108092</code> (+)</strong></td>
+					<td><code>chr11_KI270927v1_alt:149267-178809</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>NBPF1</strong><br><code>NM_001405666.3</code></td>
+					<td><code>NW_025791756.1:1198562-1260693</code> (+)</td>
+					<td><code>chr1:16562427-16613564</code> (-)</td>
+					<td><strong><code>chr1_MU273333v1_fix:1198562-1260693</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>NKRF</strong><br><code>NM_001417890.1</code></td>
+					<td><code>NW_025791817.1:39338-57426</code> (-)</td>
+					<td><code>chrX:119588337-119606424</code> (-)</td>
+					<td><strong><code>chrX_MU273394v1_fix:39338-57426</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>OR10J4</strong><br><code>NM_001348286.3</code></td>
+					<td><code>NW_025791759.1:184030-184965</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr1_MU273336v1_fix:184030-184965</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>OR11H7</strong><br><code>NM_001348273.1</code></td>
+					<td><code>NW_025791796.1:431662-433430</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr14_MU273373v1_fix:431662-433430</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>OR12D1</strong><br><code>NM_001348208.2</code></td>
+					<td><code>NT_167245.2:680444-684435</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr6_GL000252v2_alt:680444-684435</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>OR4C45</strong><br><code>NM_001005513.1</code></td>
+					<td><code>NW_017363816.1:74500-75420</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr11_KV766195v1_fix:74500-75420</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>OR4Q2</strong><br><code>NM_001348271.2</code></td>
+					<td><code>NW_025791796.1:204845-205786</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr14_MU273373v1_fix:204845-205786</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>OR52E1</strong><br><code>NM_001348221.2</code></td>
+					<td><code>NW_025791794.1:65892-66818</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr11_MU273371v1_fix:65892-66818</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>OR5AL1</strong><br><code>NM_001348230.2</code></td>
+					<td><code>NW_025791793.1:223445-224434</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr11_MU273370v1_fix:223445-224434</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>OR8U8</strong><br><code>NM_001013356.2</code></td>
+					<td><code>NW_003871073.1:186374-187333</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr11_JH159136v1_alt:186374-187333</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>OR8U9</strong><br><code>NM_001013357.1</code></td>
+					<td><code>NW_003871073.1:193979-194908</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr11_JH159136v1_alt:193979-194908</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>OR9G9</strong><br><code>NM_001013358.2</code></td>
+					<td><code>NW_003871074.1:18234-19151</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr11_JH159137v1_alt:18234-19151</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>ORAI1</strong><br><code>NM_032790.4</code></td>
+					<td><code>NW_018654719.1:32306-48880</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr12_KZ208917v1_fix:32306-48880</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>PNLIPRP2</strong><br><code>NM_005396.5</code></td>
+					<td><code>NW_025791790.1:31949-56139</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr10_MU273367v1_fix:31949-56139</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>POLR2A</strong><br><code>NM_000937.5</code></td>
+					<td><code>NW_016107299.1:104823-135071</code> (+)</td>
+					<td><code>chr17:7484366-7514616</code> (+)</td>
+					<td><strong><code>chr17_KV575245v1_fix:104823-135071</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>PRAMEF22</strong><br><code>NM_001100631.2</code></td>
+					<td><code>NW_012132914.1:157184-159964</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr1_KQ031383v1_fix:157184-159964</code> (+)</strong></td>
+					<td><code>chr1_KQ983255v1_alt:664-1240</code> (+)</td>
+			</tr>
+			<tr>
+					<td><strong>RFLNB</strong><br><code>NM_182705.3</code></td>
+					<td><code>NW_017363817.1:37341-50411</code> (-)</td>
+					<td><code>chr17:439978-445940</code> (-)</td>
+					<td><strong><code>chr17_KV766196v1_fix:37341-50411</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>RYBP</strong><br><code>NM_012234.7</code></td>
+					<td><code>NW_011332691.1:49171-122044</code> (-)</td>
+					<td><code>chr3:72374597-72446623</code> (-)</td>
+					<td><strong><code>chr3_KN538364v1_fix:49171-122044</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>SAMD1</strong><br><code>NM_138352.3</code></td>
+					<td><code>NW_021160022.1:299692-302910</code> (-)</td>
+					<td><code>chr19:14087851-14090751</code> (-)</td>
+					<td><strong><code>chr19_ML143376v1_fix:299692-302910</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>SERPINA2</strong><br><code>NM_006220.3</code></td>
+					<td><code>NT_187601.1:1478202-1488979</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr14_KI270847v1_alt:1478202-1488979</code> (-)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>SHANK3</strong><br><code>NM_001372044.2</code></td>
+					<td><code>NW_015148969.2:8917-69331</code> (+)</td>
+					<td><code>chr22:50672823-50733212</code> (+)</td>
+					<td><strong><code>chr22_KQ759762v2_fix:8917-69331</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>SLC37A4</strong><br><code>NM_001164277.2</code></td>
+					<td><code>NW_009646203.1:45712-52476</code> (-)</td>
+					<td><code>chr11:119024112-119030877</code> (-)</td>
+					<td><strong><code>chr11_KN196481v1_fix:45712-52476</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>TAS2R45</strong><br><code>NM_176886.2</code></td>
+					<td><code>NW_003571050.1:327525-328424</code> (-)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chr12_GL877876v1_alt:327525-328424</code> (-)</strong><br><code>chr12_KI270904v1_alt:291887-292786</code> (-)</td>
+			</tr>
+			<tr>
+					<td><strong>TCEAL6</strong><br><code>NM_001367790.1</code></td>
+					<td><code>NW_025791816.1:33591-37571</code> (-)</td>
+					<td>—</td>
+					<td><strong><code>chrX_MU273393v1_fix:33591-37571</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>UBE2NL</strong><br><code>NM_001012989.3</code></td>
+					<td><code>NW_025791819.1:169154-170343</code> (+)</td>
+					<td>—</td>
+					<td>—</td>
+					<td><strong><code>chrX_MU273396v1_alt:169154-170343</code> (+)</strong></td>
+			</tr>
+			<tr>
+					<td><strong>VN1R5</strong><br><code>NM_173858.1</code></td>
+					<td><code>NW_025791757.1:22515-23588</code> (+)</td>
+					<td>—</td>
+					<td><strong><code>chr1_MU273334v1_fix:22515-23588</code> (+)</strong></td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>ZNF598</strong><br><code>NM_178167.5</code></td>
+					<td><code>NW_025791799.1:63802-75965</code> (-)</td>
+					<td><code>chr16:1997654-2009821</code> (-)</td>
+					<td><strong><code>chr16_MU273376v1_fix:63802-75965</code> (-)</strong></td>
+					<td>—</td>
+			</tr>
+	</tbody>
+</table>
 
   </article>
 
@@ -864,10 +1316,10 @@
           <p>
             <strong>链接:</strong>
             <a
-              href="https://ActivationEnergy.github.io/posts/new_start/"
+              href="https://ActivationEnergy.github.io/posts/reference-genome-mane-patches/"
               class="text-primary hover:text-primary/80 break-all hyphens-auto transition-colors duration-200"
             >
-              https://ActivationEnergy.github.io/posts/new_start/
+              https://ActivationEnergy.github.io/posts/reference-genome-mane-patches/
             </a>
           </p>
 
@@ -906,65 +1358,6 @@
 
 
 
-
-  <nav class="post-navigation mb-12">
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-      
-      <div class="nav-item">
-        
-          <div
-            class="bg-muted/30 border-border/50 flex min-h-[140px] flex-col justify-center rounded-xl border p-6"
-          >
-            <div class="mb-3 flex items-center gap-3">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-</svg>
-              <span class="text-muted-foreground/50 text-sm font-medium">
-                没有上一篇
-              </span>
-            </div>
-          </div>
-        
-      </div>
-
-      
-      <div class="nav-item">
-        
-          <a
-            href="/posts/%E5%B7%A5%E5%85%B7%E9%9B%86%E9%94%A6-1/"
-            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] flex-col justify-between rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none"
-          >
-            <div>
-              <div class="mb-3 flex items-center justify-end gap-3">
-                <span class="text-muted-foreground text-sm font-medium">
-                  下一篇
-                </span>
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-</svg>
-              </div>
-
-              <h3
-                class="text-foreground group-hover:text-primary mb-3 line-clamp-2 text-right text-lg leading-tight font-semibold transition-colors duration-200"
-              >
-                工具集锦 - 1
-              </h3>
-            </div>
-
-            <div class="text-muted-foreground mt-auto flex items-center justify-end gap-2 text-xs">
-              <time datetime="2025-11-21">
-                25/11/21
-              </time>
-              <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            </div>
-          </a>
-        
-      </div>
-    </div>
-  </nav>
 
 
 
