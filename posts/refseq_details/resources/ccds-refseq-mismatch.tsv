@@ -1,0 +1,234 @@
+genome	gene	transcript	category	observed_genes
+hg38	BKGD	NM_001351991.2	different_gene	C11orf54
+hg38	BKGD	NM_014039.4	different_gene	C11orf54
+hg38	BKGD	NM_001286067.2	different_gene	C11orf54
+hg38	BKGD	NM_001286068.2	different_gene	C11orf54
+hg38	BKGD	NM_001286069.2	different_gene	C11orf54
+hg38	BKGD	NM_001351985.2	different_gene	C11orf54
+hg38	BKGD	NM_001351986.2	different_gene	C11orf54
+hg38	BKGD	NM_001351987.2	different_gene	C11orf54
+hg38	BKGD	NM_001351988.2	different_gene	C11orf54
+hg38	BKGD	NM_001351989.2	different_gene	C11orf54
+hg38	BKGD	NM_001286071.2	different_gene	C11orf54
+hg38	BKGD	NM_001351992.2	different_gene	C11orf54
+hg38	BKGD	NM_001286070.2	different_gene	C11orf54
+hg38	BKGD	NM_001351990.2	different_gene	C11orf54
+hg38	CXorf49C	NM_001323075.3	different_gene	LOC101059915
+hg38	GUCA1ANB-GUCA1A	NM_001384910.1	different_gene	GUCA1A
+hg38	OR8G3	NM_001395906.1	absent	
+hg38	SMIM48	NM_001162371.3	different_gene	LOC728392
+hg38	ZNF177	NM_001384659.1	different_gene	ZNF559-ZNF177
+hg19	ACKR5	NM_007264.4	different_gene	GPR182
+hg19	AKAP19	NM_001042519.2	different_gene	C2orf88
+hg19	AKAP19	NM_001042520.2	different_gene	C2orf88
+hg19	AKAP19	NM_001042521.2	different_gene	C2orf88
+hg19	AKAP19	NM_032321.3	different_gene	C2orf88
+hg19	ARLN	NM_001001701.4	different_gene	C4orf3
+hg19	ARLN	NM_001170330.1	different_gene	C4orf3
+hg19	BACC1	NM_174893.4	different_gene	C17orf49
+hg19	BACC1	NM_001142798.3	different_gene	C17orf49
+hg19	BACC1	NM_001142799.3	different_gene	C17orf49
+hg19	BKGD	NM_001351991.2	different_gene	C11orf54
+hg19	BKGD	NM_014039.4	different_gene	C11orf54
+hg19	BKGD	NM_001286067.2	different_gene	C11orf54
+hg19	BKGD	NM_001286068.2	different_gene	C11orf54
+hg19	BKGD	NM_001286069.2	different_gene	C11orf54
+hg19	BKGD	NM_001351985.2	different_gene	C11orf54
+hg19	BKGD	NM_001351986.2	different_gene	C11orf54
+hg19	BKGD	NM_001351987.2	different_gene	C11orf54
+hg19	BKGD	NM_001351988.2	different_gene	C11orf54
+hg19	BKGD	NM_001351989.2	different_gene	C11orf54
+hg19	BKGD	NM_001286071.2	different_gene	C11orf54
+hg19	BKGD	NM_001351992.2	different_gene	C11orf54
+hg19	BKGD	NM_001286070.2	different_gene	C11orf54
+hg19	BKGD	NM_001351990.2	different_gene	C11orf54
+hg19	CATSPERH	NM_001282448.2	different_gene	TMEM262
+hg19	CATSPERQ	NM_001252402.3	different_gene	TMEM249
+hg19	CATSPERQ	NM_001280561.2	different_gene	TMEM249
+hg19	CATSPERT	NM_152525.6	different_gene	C2CD6
+hg19	CATSPERT	NM_001168216.2	different_gene	C2CD6
+hg19	CATSPERT	NM_001168217.2	different_gene	C2CD6
+hg19	CATSPERT	NM_001168221.2	different_gene	C2CD6
+hg19	CHLSN	NM_001134395.1	different_gene	C7orf50
+hg19	CHLSN	NM_001134396.1	different_gene	C7orf50
+hg19	CHLSN	NM_001318252.2	different_gene	C7orf50
+hg19	CHLSN	NM_032350.5	different_gene	C7orf50
+hg19	CIROZ	NM_001170754.2	different_gene	C1orf127
+hg19	CIRSR	NM_004882.4	different_gene	CIR1
+hg19	COXFA4	NM_002489.4	different_gene	NDUFA4
+hg19	COXFA4L2	NM_001394960.1	different_gene	NDUFA4L2
+hg19	COXFA4L2	NM_001394961.1	different_gene	NDUFA4L2
+hg19	COXFA4L2	NM_020142.4	different_gene	NDUFA4L2
+hg19	COXFA4L3	NM_032413.4	different_gene	C15orf48
+hg19	COXFA4L3	NM_197955.3	different_gene	C15orf48
+hg19	CPAP	NM_018451.5	different_gene	CENPJ
+hg19	CXorf49C	NM_001323075.3	different_gene	LOC101059915
+hg19	DCPH1	NM_024573.3	different_gene	ARMT1
+hg19	DCPH1	NM_001286562.2	different_gene	ARMT1
+hg19	DNAAF19	NM_001258395.2	different_gene	CCDC103
+hg19	DNAAF19	NM_001258396.2	different_gene	CCDC103
+hg19	DNAAF19	NM_213607.3	different_gene	CCDC103
+hg19	DNAAF19	NM_001258397.3	different_gene	CCDC103
+hg19	DORIP1	NM_001017923.2	different_gene	C14orf28
+hg19	DRC10	NM_138451.3	different_gene	IQCD
+hg19	DRC10	NM_001330452.2	different_gene	IQCD
+hg19	DRC11	NM_024726.5	different_gene	IQCA1
+hg19	DRC11	NM_001270584.2	different_gene	IQCA1
+hg19	DRC11	NM_001270585.2	different_gene	IQCA1
+hg19	DRC11L	NM_001304419.2	different_gene	IQCA1L
+hg19	DRC2	NM_033124.5	different_gene	CCDC65
+hg19	DRC4	NM_001481.3	different_gene	GAS8
+hg19	DRC4	NM_001286209.2	different_gene	GAS8
+hg19	DRC4	NM_001286205.2	different_gene	GAS8
+hg19	DRC5	NM_182539.4	different_gene	TCTE1
+hg19	DRC8	NM_032328.4	different_gene	EFCAB2
+hg19	DRC8	NM_001143943.1	different_gene	EFCAB2
+hg19	DRC9	NM_001134435.3	different_gene	IQCG
+hg19	DRC9	NM_001323027.2	different_gene	IQCG
+hg19	DRC9	NM_032263.5	different_gene	IQCG
+hg19	DRC9	NM_001323030.2	different_gene	IQCG
+hg19	ERLN	NM_001162997.2	different_gene	SMIM6
+hg19	FMO2	NM_001460.5	absent	
+hg19	FOLR3	NM_000804.4	absent	
+hg19	FSAF1	NM_152379.4	different_gene	C1orf131
+hg19	FSAF1	NM_001300830.2	different_gene	C1orf131
+hg19	GUCA1ANB-GUCA1A	NM_001384910.1	different_gene	GUCA1A
+hg19	HACL2	NM_006844.5	different_gene	ILVBL
+hg19	HEMK2	NM_182749.5	different_gene	N6AMT1
+hg19	HEMK2	NM_013240.6	different_gene	N6AMT1
+hg19	HNRNPCL3	NM_001382358.1	absent	
+hg19	HNRNPCL4	NM_001302551.2	absent	
+hg19	KRABD1	NM_001205272.2	different_gene	KRBOX1
+hg19	KRABD2	NM_213597.3	different_gene	KRBA2
+hg19	KRABD2	NM_001304947.3	different_gene	KRBA2
+hg19	KRABD3	NM_032534.4	different_gene	KRBA1
+hg19	KRABD3	NM_001290187.2	different_gene	KRBA1
+hg19	KRABD3	NM_001394485.1	different_gene	KRBA1
+hg19	KRABD4	NM_017776.3	different_gene	KRBOX4
+hg19	KRABD4	NM_001129898.2	different_gene	KRBOX4
+hg19	KRABD4	NM_001129899.2	different_gene	KRBOX4
+hg19	KRABD5	NM_001130913.2	different_gene	KRBOX5
+hg19	KRABD5	NM_001394174.1	different_gene	KRBOX5
+hg19	KRABD5	NM_001394186.1	different_gene	KRBOX5
+hg19	LRTM3	NM_001146197.3	different_gene	CCDC168
+hg19	LTAP1	NM_015449.4	different_gene	C1orf43
+hg19	LTAP1	NM_138740.4	different_gene	C1orf43
+hg19	LTAP1	NM_001098616.3	different_gene	C1orf43
+hg19	LTAP1	NM_001297720.2	different_gene	C1orf43
+hg19	LTAP1	NM_001297721.2	different_gene	C1orf43
+hg19	LTAP1	NM_001297723.2	different_gene	C1orf43
+hg19	OR1R1	NM_001396056.1	different_gene	OR1R1P
+hg19	OR2I1	NM_001396058.1	different_gene	OR2I1P
+hg19	OR4E1	NM_001317107.2	absent	
+hg19	OR4M2B	NM_001395296.1	absent	
+hg19	OR4N4C	NM_001365389.2	absent	
+hg19	OR51C1	NM_001396051.1	different_gene	OR51C1P
+hg19	OR56B2	NM_001396057.1	different_gene	OR56B2P
+hg19	OR5BS1	NM_001396061.1	different_gene	OR5BS1P
+hg19	OR5D3	NM_001396059.1	different_gene	OR5D3P
+hg19	OR8G1	NM_001002905.2	absent	
+hg19	OR8G3	NM_001395906.1	absent	
+hg19	PEX39	NM_001008739.2	different_gene	C6orf226
+hg19	PGCKA1	NM_001104629.2	different_gene	C4orf19
+hg19	PGCKA1	NM_018302.3	different_gene	C4orf19
+hg19	PKD1L2	NM_001278423.2	absent	
+hg19	POFUT3	NM_032664.3	different_gene	FUT10
+hg19	POFUT4	NM_173540.3	different_gene	FUT11
+hg19	POFUT4	NM_001284194.2	different_gene	FUT11
+hg19	POPDC1	NM_001199563.2	different_gene	BVES
+hg19	POPDC1	NM_007073.4	different_gene	BVES
+hg19	POPDC1	NM_147147.4	different_gene	BVES
+hg19	POTEB3	NM_207355.5	absent	
+hg19	PRAMEF18	NM_001099850.2	absent	
+hg19	PRAMEF25	NM_001310134.3	absent	
+hg19	PRAMEF9	NM_001010890.3	absent	
+hg19	QTGAL	NM_001009905.3	different_gene	B3GNTL1
+hg19	QTGAL	NM_001320743.2	different_gene	B3GNTL1
+hg19	QTMAN	NM_001376320.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376321.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376322.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376323.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376324.2	different_gene	GTDC1
+hg19	QTMAN	NM_024659.6	different_gene	GTDC1
+hg19	QTMAN	NM_001006636.5	different_gene	GTDC1
+hg19	QTMAN	NM_001164629.5	different_gene	GTDC1
+hg19	QTMAN	NM_001354354.2	different_gene	GTDC1
+hg19	QTMAN	NM_001354361.1	different_gene	GTDC1
+hg19	QTMAN	NM_001376307.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376308.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376309.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376310.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376311.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376312.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376313.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376314.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376315.2	different_gene	GTDC1
+hg19	QTMAN	NM_001284233.4	different_gene	GTDC1
+hg19	QTMAN	NM_001354360.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376318.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376319.2	different_gene	GTDC1
+hg19	QTMAN	NM_001284234.3	different_gene	GTDC1
+hg19	QTMAN	NM_001354351.2	different_gene	GTDC1
+hg19	QTMAN	NM_001284238.3	different_gene	GTDC1
+hg19	QTMAN	NM_001354352.2	different_gene	GTDC1
+hg19	QTMAN	NM_001354362.3	different_gene	GTDC1
+hg19	QTMAN	NM_001376325.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376326.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376327.2	different_gene	GTDC1
+hg19	QTMAN	NM_001376328.1	different_gene	GTDC1
+hg19	RAB7B	NM_001164522.3	absent	
+hg19	RAB7B	NM_177403.6	absent	
+hg19	RAB7B	NM_001304839.2	absent	
+hg19	RHBG	NM_020407.5	absent	
+hg19	RMP24	NM_031446.5	different_gene	C18orf21
+hg19	RMP24	NM_001201474.2	different_gene	C18orf21
+hg19	RMP24	NM_001201475.2	different_gene	C18orf21
+hg19	RMP24	NM_001201476.2	different_gene	C18orf21
+hg19	RMP64	NM_015412.4	different_gene	NEPRO
+hg19	RMP64	NM_001319109.2	different_gene	NEPRO
+hg19	SERPINB11	NM_001291278.2	absent	
+hg19	SLC33A2	NM_138431.3	different_gene	MFSD3
+hg19	SLC35D4	NM_032933.6	different_gene	TMEM241
+hg19	SLC35H1	NM_001281460.2	different_gene	SLC35C2
+hg19	SLC35H1	NM_015945.12	different_gene	SLC35C2
+hg19	SLC35H1	NM_173179.4	different_gene	SLC35C2
+hg19	SLC35H1	NM_173073.4	different_gene	SLC35C2
+hg19	SLC35H1	NM_001281458.2	different_gene	SLC35C2
+hg19	SLC38A12	NM_017728.4	different_gene	TMEM104
+hg19	SLC38A12	NM_001321264.3	different_gene	TMEM104
+hg19	SLC60A1	NM_181644.5	different_gene	MFSD4A
+hg19	SLC60A2	NM_153369.4	different_gene	MFSD4B
+hg19	SLC61A1	NM_032889.5	different_gene	MFSD5
+hg19	SLC61A1	NM_001170790.2	different_gene	MFSD5
+hg19	SLC67A1	NM_002555.6	different_gene	SLC22A18
+hg19	SLC67A1	NM_183233.3	different_gene	SLC22A18
+hg19	SLC67A1	NM_001315502.2	different_gene	SLC22A18
+hg19	SLC67A2	NM_032718.5	different_gene	MFSD9
+hg19	SLC68A1	NM_024789.4	different_gene	MFSD13A
+hg19	SLC71A1	NM_033055.3	different_gene	MFSD14A
+hg19	SLC71A2	NM_032558.3	different_gene	MFSD14B
+hg19	SLC75A1	NM_001120.5	different_gene	MFSD10
+hg19	SLC75A1	NM_001146069.2	different_gene	MFSD10
+hg19	SLC75A1	NM_001363679.2	different_gene	MFSD10
+hg19	SLC75A1	NM_001410703.1	different_gene	MFSD10
+hg19	SLC9D1	NM_017905.6	different_gene	TMCO3
+hg19	SLC9D1	NM_001349741.2	different_gene	TMCO3
+hg19	SMIM48	NM_001162371.3	different_gene	LOC728392
+hg19	SYT15B	NM_001370184.1	absent	
+hg19	SYT15B	NM_001370182.1	absent	
+hg19	TBC1D3	NM_001123391.4	absent	
+hg19	TBC1D3C	NM_001001418.6	absent	
+hg19	TBC1D3E	NM_001291466.2	absent	
+hg19	TBC1D3K	NM_001291464.2	absent	
+hg19	TMEM278	NM_001146685.2	different_gene	TMEM88B
+hg19	TP53TG3E	NM_001330061.2	absent	
+hg19	TP53TG3F	NM_001330066.2	absent	
+hg19	TYW1B	NM_001145440.3	absent	
+hg19	TYW2	NM_017956.4	different_gene	TRMT12
+hg19	VMA12	NM_152464.3	different_gene	TMEM199
+hg19	VMA22	NM_032357.4	different_gene	CCDC115
+hg19	VMA22	NM_001321118.1	different_gene	CCDC115
+hg19	WHR1	NM_004197.2	different_gene	STK19
+hg19	ZAN	NM_173059.3	absent	
+hg19	ZAN	NM_003386.3	absent	
+hg19	ZNF177	NM_001384659.1	different_gene	ZNF559-ZNF177

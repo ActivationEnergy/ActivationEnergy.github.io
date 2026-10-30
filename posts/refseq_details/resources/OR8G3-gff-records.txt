@@ -1,0 +1,26 @@
+# OR8G3 records excerpted from the fixed local GFF3 releases.
+# Original coordinates: 1-based closed; attributes unchanged.
+# hg38 GCF_000001405.40_GRCh38.p14_genomic.gff.gz
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build GRCh38.p14
+#!genome-build-accession NCBI_Assembly:GCF_000001405.40
+#!annotation-date 08/01/2025
+#!annotation-source NCBI RefSeq GCF_000001405.40-RS_2025_08
+NC_000011.10	BestRefSeq	pseudogene	124211707	124215828	.	+	.	ID=gene-OR8G3;Dbxref=GeneID:387815,HGNC:HGNC:14698;Name=OR8G3;description=olfactory receptor family 8 subfamily G member 3 (gene/pseudogene);gbkey=Gene;gene=OR8G3;gene_biotype=transcribed_pseudogene;gene_synonym=OR8G3P;pseudo=true
+NC_000011.10	BestRefSeq	transcript	124211707	124215828	.	+	.	ID=rna-NR_172910.1;Parent=gene-OR8G3;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;Name=NR_172910.1;gbkey=misc_RNA;gene=OR8G3;product=olfactory receptor family 8 subfamily G member 3 (gene/pseudogene);pseudo=true;transcript_id=NR_172910.1
+NC_000011.10	BestRefSeq	exon	124211707	124211870	.	+	.	ID=exon-NR_172910.1-1;Parent=rna-NR_172910.1;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;gbkey=misc_RNA;gene=OR8G3;product=olfactory receptor family 8 subfamily G member 3 (gene/pseudogene);pseudo=true;transcript_id=NR_172910.1
+NC_000011.10	BestRefSeq	exon	124214572	124214660	.	+	.	ID=exon-NR_172910.1-2;Parent=rna-NR_172910.1;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;gbkey=misc_RNA;gene=OR8G3;product=olfactory receptor family 8 subfamily G member 3 (gene/pseudogene);pseudo=true;transcript_id=NR_172910.1
+NC_000011.10	BestRefSeq	exon	124214738	124215828	.	+	.	ID=exon-NR_172910.1-3;Parent=rna-NR_172910.1;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;gbkey=misc_RNA;gene=OR8G3;product=olfactory receptor family 8 subfamily G member 3 (gene/pseudogene);pseudo=true;transcript_id=NR_172910.1
+# hg19 GCF_000001405.25_GRCh37.p13_genomic.gff.gz
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build GRCh37.p13
+#!genome-build-accession NCBI_Assembly:GCF_000001405.25
+#!annotation-date 09/02/2024
+#!annotation-source NCBI RefSeq GCF_000001405.25-RS_2024_09
+NC_000011.9	BestRefSeq	pseudogene	124082414	124086535	.	+	.	ID=gene-OR8G3P;Dbxref=GeneID:387815,HGNC:HGNC:14698;Name=OR8G3P;description=olfactory receptor family 8 subfamily G member 3 pseudogene;gbkey=Gene;gene=OR8G3P;gene_biotype=transcribed_pseudogene;pseudo=true
+NC_000011.9	BestRefSeq	transcript	124082414	124086535	.	+	.	ID=rna-NR_172910.1;Parent=gene-OR8G3P;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;Name=NR_172910.1;Note=The RefSeq transcript has 1 substitution compared to this genomic sequence;exception=annotated by transcript or proteomic data;gbkey=misc_RNA;gene=OR8G3P;inference=similar to RNA sequence (same species):RefSeq:NR_172910.1;product=olfactory receptor family 8 subfamily G member 3 pseudogene;pseudo=true;transcript_id=NR_172910.1
+NC_000011.9	BestRefSeq	exon	124082414	124082577	.	+	.	ID=exon-NR_172910.1-1;Parent=rna-NR_172910.1;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;Note=The RefSeq transcript has 1 substitution compared to this genomic sequence;exception=annotated by transcript or proteomic data;gbkey=misc_RNA;gene=OR8G3P;inference=similar to RNA sequence (same species):RefSeq:NR_172910.1;product=olfactory receptor family 8 subfamily G member 3 pseudogene;pseudo=true;transcript_id=NR_172910.1
+NC_000011.9	BestRefSeq	exon	124085279	124085367	.	+	.	ID=exon-NR_172910.1-2;Parent=rna-NR_172910.1;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;Note=The RefSeq transcript has 1 substitution compared to this genomic sequence;exception=annotated by transcript or proteomic data;gbkey=misc_RNA;gene=OR8G3P;inference=similar to RNA sequence (same species):RefSeq:NR_172910.1;product=olfactory receptor family 8 subfamily G member 3 pseudogene;pseudo=true;transcript_id=NR_172910.1
+NC_000011.9	BestRefSeq	exon	124085445	124086535	.	+	.	ID=exon-NR_172910.1-3;Parent=rna-NR_172910.1;Dbxref=GeneID:387815,GenBank:NR_172910.1,HGNC:HGNC:14698;Note=The RefSeq transcript has 1 substitution compared to this genomic sequence;exception=annotated by transcript or proteomic data;gbkey=misc_RNA;gene=OR8G3P;inference=similar to RNA sequence (same species):RefSeq:NR_172910.1;product=olfactory receptor family 8 subfamily G member 3 pseudogene;pseudo=true;transcript_id=NR_172910.1
